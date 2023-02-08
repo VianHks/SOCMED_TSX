@@ -1,0 +1,22 @@
+.Trendings{
+    margin-top: -10px;
+}
+/* .WordWide>h2{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+
+} */
+.WordWide>h3{
+    margin: -10px;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+}
+.WordWide>h5{
+    margin-top: -17px;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: gray;
+}

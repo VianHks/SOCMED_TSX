@@ -1,0 +1,6 @@
+.Feed{
+    flex: 0.50;
+    height: 100%;
+    border-right: 1px solid var(--twitter-color);
+    border-left: 1px solid var(--twitter-color);
+}

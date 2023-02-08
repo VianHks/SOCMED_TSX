@@ -1,0 +1,128 @@
+.Widgets{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.30;
+    position: relative;
+}
+.search_area{
+    background: var(--twitter-background);
+    display: flex;
+    align-items: center;
+    line-height: 1.2rem;
+    border-radius: 5rem;
+    width: 90%;
+    margin-top: 5px;
+    position: absolute;
+    top: 1.5rem;
+    
+}
+
+.Search_input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.trending_area{
+    width: 90%;
+    height: 80%;
+    background: var(--twitter-background);
+    z-index: -10;
+    position: absolute;
+    top: 11%;
+    border-radius: 1rem;
+
+}
+.trending_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.trending_area .trending_header>h2{
+    font-size: 2rem;
+    margin: 0;
+    padding:1rem 2rem;
+}
+.dividers{
+    margin-top: 10px;
+    border: 1px solid lightgray;
+}
+.trending_body {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 80%;
+}
+.trending_body::-webkit-scrollbar{
+    display: none;
+}
+.ww2{
+    margin-left: 5px;
+}
+.search-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .dropdown {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 1rem !important;
+    width: 225px;
+
+  }
+  
+  .dropdown:empty {
+    border: none;
+  }
+  
+  .dropdown-row {
+    
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+    border-radius: 5rem !important;
+   
+  }
+  
+  input {
+    width: 220px;
+    font-size: 15px;
+    /* border: none !important; */
+    border-radius: 5rem !important;
+  }
+  
+  .search-inner {
+    display: flex;
+  }
+  
+  .btnsearch{
+    cursor: pointer;
+    margin-left: 5px;
+    background: var(--twitter-color) !important;
+    color: white !important;
+    border: none !important;
+    padding: 1rem 1rem !important;
+    border-radius: 5rem !important;
+    /* margin-right: 10px !important; */
+  }
+/* .trending_body .WordWide>h3{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+
+}
+.trending_body .WordWide>h5{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+
+} */
+.who-to-follow{
+    margin-top: -30px;
+}

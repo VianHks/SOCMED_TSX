@@ -1,0 +1,22 @@
+.sidebar_utama{
+    flex: 0.25;
+    min-width: 25rem;
+    margin-top: -200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid var(--twitter-color);
+    
+    
+    }
+    .tweeter_button{
+        border: none !important;
+        padding: 2rem !important;
+        color: white !important;
+        background: var(--twitter-color) !important;
+        height: 3em !important;
+        font-weight: 700 !important;
+        border-radius: 5rem !important;
+        font-size: 1.2rem !important;
+        margin: 1rem 0rem !important;
+        
+    }

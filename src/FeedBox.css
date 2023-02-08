@@ -1,0 +1,76 @@
+.Feedbox{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+        
+}
+.feedbox_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    border-bottom: 1px solid var(--twitter-color);
+}
+.feedbox_header>h2{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+
+}
+.feedbox_header>.MuiSvgIcon-root{
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: var(--twitter-color);
+}
+.feedbox_body{
+    border-bottom: 0.8rem solid var(--twitter-color);
+    width: 100;
+    padding: 4rem 0rem;
+}
+
+.feedbox_body .feedbox_input{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.feedbox_body .feedbox_input>.MuiSvgIcon-root{
+    margin-left: 1rem;
+}
+.feedbox_input_fields{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+}
+.tweet_input{
+    
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    flex: 1;
+}
+.feedbox_submit{
+    text-align: right;
+    width: 100%;    
+    
+}
+.Button__Submit{
+    background: var(--twitter-color) !important;
+    color: white !important;
+    border: none !important;
+    padding: 1rem 1rem !important;
+    border-radius: 5rem !important;
+    margin-right: 10px !important;
+    /* margin-top: 1rem !important; */
+
+
+}
+.Avatar{
+    margin-left: 1rem;
+
+}
